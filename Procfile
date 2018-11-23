@@ -1,1 +1,1 @@
-web: pm2 start app.js && pm2 logs all && cd client && yarn start
+web: pm2 start server.js && pm2 logs all && cd client && yarn build
